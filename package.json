@@ -1,0 +1,24 @@
+{
+  "name": "tomorrow-house",
+  "version": "1.0.0",
+  "description": "오늘의집 클론코딩",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass",
+    "sass": "node-sass -w -r styles/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsyeon603/tomorrow-house.git"
+  },
+  "author": "hsyeon603@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsyeon603/tomorrow-house/issues"
+  },
+  "homepage": "https://github.com/hsyeon603/tomorrow-house#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
