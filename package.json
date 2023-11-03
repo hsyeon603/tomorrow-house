@@ -20,5 +20,11 @@
   "homepage": "https://github.com/hsyeon603/tomorrow-house#readme",
   "dependencies": {
     "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^15.11.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-scss": "^5.3.0"
   }
 }
