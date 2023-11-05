@@ -38,7 +38,6 @@
     @include text-style-13;
   }
   @if ($size == 14) {
-    @debug $size;
     @include text-style-14;
   }
   @if ($size == 16) {
