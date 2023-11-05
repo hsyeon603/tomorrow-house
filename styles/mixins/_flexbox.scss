@@ -7,7 +7,7 @@ $flex-map: (
   stretch: stretch,
 );
 @function _get-flex-value($key) {
-  @return map-get(flex-map, $key);
+  @return map-get($flex-map, $key);
 }
 
 @mixin flexbox($jc: center, $ai: center) {
