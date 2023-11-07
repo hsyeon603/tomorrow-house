@@ -2,6 +2,10 @@
   display: block; // 부모가 a 등 inline인 경우 대비
   overflow: hidden;
   border-radius: 50%;
+  background-image: url('./assets/images/img-user-default.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 
   img {
     display: block;
