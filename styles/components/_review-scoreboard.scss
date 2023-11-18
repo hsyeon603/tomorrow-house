@@ -48,23 +48,23 @@
     .score-detail {
       width: auto;
     }
-  }
 
-  .score-summary {
-    flex-direction: row-reverse;
+    .score-summary {
+      flex-direction: row-reverse;
 
-    .average-score {
-      margin-bottom: 0;
+      .average-score {
+        margin-bottom: 0;
+      }
+
+      .star-rating {
+        margin-right: 16px;
+        font-size: 24px;
+      }
     }
 
-    .star-rating {
-      margin-right: 16px;
-      font-size: 24px;
+    &::before {
+      height: 72px;
+      margin: 0 69px;
     }
-  }
-
-  &::before {
-    height: 72px;
-    margin: 0 69px;
   }
 }
